@@ -22,7 +22,7 @@ class Ship:
 
         
         try:
-            self.image = pygame.image.load('images/ship.bmp')
+            self.image = pygame.image.load('ship.png')
             self.image = pygame.transform.rotate(self.image, -90) 
         except pygame.error:
             print("Error: Could not load image. Make sure 'images/ship.bmp' exists.")
